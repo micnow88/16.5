@@ -9,7 +9,7 @@ function getQuote() {
             return resp.json();
         })
         .then(createTweet);
-	console.log(resp.json);
+	console.log(fetch());
 }
 
 function createTweet(input) {
